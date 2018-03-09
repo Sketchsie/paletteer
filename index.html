@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paletteer</title>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Merriweather" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+<div class="root">
+
+
+  <div class='ui vertical masthead center aligned segment'>
+    <h1 class="ui huge centered header" id="header"><a href="http://paletteer.surge.sh">Paletteer</a></h1>
+    <div class="ui container">
+      <p id="p">To generate a color palette, paste an image URL and click enter <strong>or</strong> submit an image file.</p>
+      <div class="ui centered grid">
+        <div class="three column row">
+            <div class="five wide right aligned column ui icon input raised">
+                <input class='text icon input raised' placeholder="Paste image URL here...." id='input' autocomplete="off" autofocus>
+            </div>
+            <div class="two wide column center aligned"><h3 id="or">or:</h3></div>
+            <div class="five wide left aligned column">
+                <label class="custom-file-upload ui centered button">              
+                  <input class="ui centered" type="file" accept="image/*" id="file" />
+                    <span>
+                        Upload Image
+                    </span>
+                    <span>
+                      <i class="upload icon"></i>   
+                    </span>                    
+                  </label>
+            </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+  <div class="ui center aligned container" id="display">
+  </div>
+  <div class="ui center aligned container" id="carddisplay">
+    <div class="ui centered eight cards" id="cardDiv"></div>
+  </div>
+
+
+  </div>
+ 
+  
+</div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>

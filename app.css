@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 40px !important;
+  } 
+  .rgb {
+    display: none;
+  }
+}
+
+#header {
+  padding-top: 0.1em !important;
+  margin-bottom: 0;
+}
+
+#display {
+  margin-bottom: 1.5em;
+}
+
+#file {
+  opacity: 0;
+  display: none;
+}
+
+#or {
+  padding-top: 8px;
+}
+
+#p {
+  padding-bottom: 3px;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.card {
+  height: 70px;
+} 
+
+.root {
+  margin-bottom: 2.5em;
+}
+
+.rgb {
+  padding-top: 7em;
+}
+
+.button {
+  text-shadow: 2px solid black;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: rgb(247, 244, 237);
+}
+
+h1 {
+  font-size: 38px !important ;
+  font-family: 'Merriweather', serif !important;
+  color: rgb(159, 79, 41) !important;
+}
+
+a {
+  color: rgb(159, 79, 41) !important;
+}
+
+h3 {
+  font-family: 'Merriweather', serif !important;
+  color: rgb(159, 79, 41);
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  color: rgb(183, 72, 62);
+  margin-bottom: 2px;
+}
